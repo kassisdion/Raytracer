@@ -1,0 +1,29 @@
+eyes
+pos -1700 100 50
+rot 0 0 0
+
+spot
+pos -500 0 0
+color 0xFF0000
+power 100
+
+spot
+pos -700 -100 0
+color 0x0000FF
+power 100
+
+spot
+pos -900 100 0
+color 0x00FF00
+power 100
+
+sphere
+pos 0 0 0
+rot 0 0 0
+color 0x000000
+brillance 85
+rayon 400
+effect -1
+def_norme 1
+lim_min 0 0 0
+lim_max 0 0 0

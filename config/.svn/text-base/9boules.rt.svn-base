@@ -1,0 +1,118 @@
+eyes
+pos -1200 0 50
+rot 0 0 0
+
+spot
+pos -1200 0 500
+color 0x000000
+power 100
+
+sphere
+pos -25 -250 20
+rot 0 0 0
+color 0x007FFF
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 -250 300
+rot 0 0 0
+color 0x7FDD4C
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 -250 -250
+rot 0 0 0
+color 0x7FDD4C
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 0 20
+rot 0 0 0
+color 0xF46611
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 0 300
+rot 0 0 0
+color 0xB666D2
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 0 -250
+rot 0 0 0
+color 0xB666D2
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 250 20
+rot 0 0 0
+color 0x007FFF
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 250 300
+rot 0 0 0
+color 0x7FDD47
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+sphere
+pos -25 250 -250
+rot 0 0 0
+color 0x7FDD4C
+brillance 25
+rayon 200
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
+
+cylindre
+pos -20 0 0
+rot 0 0 0
+color 0xFF0000
+brillance 25
+rayon 100
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0

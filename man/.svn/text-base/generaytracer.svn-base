@@ -1,0 +1,38 @@
+.TH  Generaytracer 1 "February 18, 2013" "Version 1.0" "Manuel du Generaytracer"
+
+.SH NAME Generaytracer \- Generateur de scene pour raytracer
+
+.SH SYNOPSIS
+
+.B generaytracer
+[\fBNone\fP]
+
+.SH DESCRIPTION
+\fBGeneraytracer\fP est un logiciel developpe en C permetant de creer des scenes modeles grace
+a la technique du raytracing et de les sauvegarder
+.SH OPTIONS
+Options disponibles :
+
+.SH I) Modification des elements
+.SH 1) modification des effects :
+vous pouvez modifier les effets des objets (voir man rt pour avoir la liste des effect disponible)
+
+.SH 2) modification des couleurs : 
+vous pouvez modifier la couleur des objets et des lumieres
+
+.SH 3) modifation des positions et des rotations
+vous pouvez modifier la position des objets et des lumieres ainsi que les rotations appliqué au objets
+
+.SH II) Modifcation des caracteristiques de la scene.
+.SH 1) modification de la qualité du rendus
+vous pouvez modifier les valeurs des antiliasing afin d'ameillorer la qualité du rendus final.
+
+.SH 2) modification des couleurs finals
+des effect des couleurs affectant toute l'images sont disponible et modifiable
+
+.SH BUGS
+Aucun bug recensé a ce jour
+Si vous trouver un bug, merci de le signaler a : faisan_f@epitech.eu
+
+.SH SEE ALSO
+Raytracer (1)

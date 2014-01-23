@@ -1,0 +1,18 @@
+eyes
+pos -2000 0 50
+rot 0 0 0
+
+plan
+pos 0 0 0
+rot -8 10 0
+color 0x00FF00
+brillance 0
+effect 0
+def_norme 0
+lim_min 0 0 0
+lim_max 0 0 0
+
+spot
+pos -1500 150 25
+color 0xFFFFFF
+power 100

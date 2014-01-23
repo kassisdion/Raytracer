@@ -1,0 +1,211 @@
+.TH raytracer 1 "Version 1.0" "manuel d'utilisation du Raytraceur"
+
+.SH NAME 
+
+raytraceur \- manuel d'utilisation pour le raytraceur
+
+.SH SYNOPSIS
+
+.B ./rt <nom_de_la_config>
+
+.Sh
+
+.SH FICHIER DE CONFIG : 
+.SH I) DESCRIPTION
+Le \fBfichier de configuration\fP est un fichier qui permet de creer des scenes modeles grace a la technique du raytracing a partir d'une syntaxe particuliere.
+
+.SH II) SYNTAX
+.SH 1) oeil et lumiére :
+
+Nom          Mots-cles  Parametres associes
+
+oeil         eyes       pos|rot
+
+lumiere      spot       pos|color
+
+puissance    power      nbr
+
+.SH 2) Objets disponibles :
+
+Nom          Mots-cles  Parametres associes
+
+plan         plan       pos|rot|color|brillance|effect|def_norme|lim_min|lim_max
+
+sphère       sphere     pos|rot|color|brillance|rayon|effect|def_norme|lim_min|lim_max
+
+cylindre     cylindre   pos|rot|color|brillance|rayon|effect|def_norme|lim_min|lim_max
+
+cone         cone       pos|rot|color|brillance|rayon|effect|def_norme|lim_min|lim_max
+
+paraboloide  parabo     pos|rot|color|brillance|rayon|effect|def_norme|lim_min|lim_max
+
+hyperboloide hyperbo    pos|rot|color|brillance|rayon|effect|def_norme|lim_min|lim_max
+
+.SH 3) les Parametres :
+
+Nom                Syntax       Valeur
+
+Position           : pos        x y z
+
+Rotation           : rot        x y z
+
+couleur            : color      0xRRGGBB
+
+brillance          : brillance  nbr
+
+effets             : effect     nbr (entre 0 et 10)
+
+deformation normal : def_norme  nbr (0 ou 1)
+
+limite minimum     : lim_min    x y
+
+limite maximum     : lim_max    x y
+
+rayon              : rayon      nbr
+
+.SH 4) les effects disponibles
+
+numero             effect assosicié
+
+0                  aucun effect
+
+1                  effect damier
+
+2                  effect circulaire
+
+3                  damier avec perlin
+
+4                  perlin légé
+
+5                  perlin coherent
+
+6                  perlin dur
+
+7                  texture eau
+
+8                  texture bois
+
+9                  texture desert
+
+10                 effect noir et blanc
+
+.SH MACRO MODDIFIABLE
+.SH de nombreuses macro sont modifiable dans ~/include/raytracer.h
+.SH
+.SH 1) taille de la fenetre
+
+SIZE_WIN_X       longeur de la fenetre
+
+SIZE_WIN_y       largeur de la fenetre
+
+.SH 2) reglages des affichages
+
+PREVIEW_MODE     type de rendus global : 0 ou 1
+
+0 = affichage normal
+
+1 = affichage en mode previsualisation (rendu miniman sans ombres et effect)
+
+AFF_MODE         type d'affichage de la progression : 1 ou 2
+
+1 = affichage progressif
+
+2 = affiche des pourcentages dans le terminal
+
+FONT_MODE       type de couleur de font : 1 ou 0
+
+0 = font noir
+
+1 = font perlin (imitation nuage)
+
+.SH 3) reglages des lumiéres
+
+LIGHT_PRECISION  taille de la lumiere
+
+.SH 4) reglage de la qualite du rendus
+
+ANTI_ALIASING   nombre d'itteration pour le multislampling
+
+ANTI_POWER      puissance du multislampling
+
+FIRST_ANTI_ALIALIASING puissance de l'oversampling
+
+.SH 5) reglage des ombres
+
+BURNED_SHADOW   ombre floue : 0 ou 1
+
+0 = inactive
+
+1 = active
+
+SHADOW_MODE     puissance des ombres entre 0 et 2
+
+0 = naturel
+
+1 = augmenté
+
+2 = maximal
+
+.SH 6) filtre de couleurs
+
+NEGATIVE_COLOR  active ou non les couleurs negatives : 0 ou 1
+
+0 = inactive
+
+1 = active
+
+SEPIA_COLOR     active ou non les couleurs sepia : 0 ou 1
+
+0 = inactive
+
+1 = active
+
+CYANO_COLOR    active ou non les couleurs sepia : 0 ou 1
+
+0 = inactive
+
+1 = active
+
+.SH DEPLACEMENT EN LIVE
+I) touches
+
+touches          effect
+
+fleche_haut     monte l'oeil
+
+fleche_bas      descends l'oeil
+
+fleche_droite   deplace l'oeil a droite
+
+fleche_gauche   deplace l'oeil a gauche
+
+.SH II) configuration
+de nombreuses macro sont modifiable dans ~/include/raytracer.h
+
+nom             effect
+
+PRECISION_MOVE  nombre de pixel affectant chaque deplacement
+
+ZOOM            deplacement positif de l'oeil celon x
+
+DEZOOM          deplacement negatif de l'oeil celon x
+
+UP              deplacement positif de l'oeil celon z
+
+DOWN            deplacement negatif de l'oeil celon z
+
+LEFT            deplacement positif de l'oeil celon y
+
+RIGHT           deplacement negatif de l'oeil celon y
+
+EXIT            permet de quiter le programme
+
+ENTER           lancer la generation en qualité maximal
+
+SPACE           lance la generation en qualité intermédiaire
+
+.SH EXEMPLES
+Des scènes complètes sont présentes dans le dossier config du Raytraceur.
+
+.SH a voir aussi
+generaytracer (1)

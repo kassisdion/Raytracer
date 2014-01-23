@@ -1,0 +1,18 @@
+eyes
+pos -3200 0 0
+rot 0 0 0
+
+spot
+pos -1200 0 500
+color 0x000000
+
+sphere
+pos 0 0 0
+rot 0 0 0
+color 0xffffff
+brillance 25
+rayon 50
+effect -1
+def_norme -1
+lim_min 0 0 0
+lim_max 0 0 0
