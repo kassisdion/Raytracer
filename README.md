@@ -1,9 +1,20 @@
 raytracer
 =========
+This a project i've done during my first years at Epitech.
+Thx to Caron Thomas for the scene generator.
 
-## A simple Raytracer in c
+## Feature
+* Texture
+* Perlin deformation
+* Deformation
+* Mutiple light (with color)
+* Preview mode
+* 2 regulable anti-aliasing 
+* Live deplacement
+* global effect (black&white, sepia, negative, ...)
 
-### compilation :
+### Compilation :
+
 #### MLX
 * use the install_mlx.sh script (sudo ./script/install_mlx.sh)
 
