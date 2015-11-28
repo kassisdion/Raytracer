@@ -1,7 +1,14 @@
-raytracer
+# Raytracer
+![logo](https://github.com/kassisdion/Raytracer/blob/master/resource/logo.png?raw=true)
+
 =========
 This a project i've done during my first years at Epitech.
 Thx to Caron Thomas for the scene generator.
+
+## Demo
+![sample1](https://github.com/kassisdion/Raytracer/blob/master/resource/sample/1fbf532b7231ba919be977c40152ea0e.png?raw=true)
+![sample2](https://github.com/kassisdion/Raytracer/blob/master/resource/sample/26e229708a7f75c612271c5ed75de7f2.jpeg?raw=true)
+![sample3](https://github.com/kassisdion/Raytracer/blob/master/resource/sample/8a518ed391bb85b96d6216bdbbe32782.png)
 
 ## Feature
 * Texture
