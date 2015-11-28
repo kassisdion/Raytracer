@@ -1,9 +1,7 @@
 # Raytracer
-![logo](https://github.com/kassisdion/Raytracer/blob/master/resource/logo.png?raw=true)
-
-=========
 This a project i've done during my first years at Epitech.
 Thx to Caron Thomas for the scene generator.
+=========
 
 ## Demo
 ![sample1](https://github.com/kassisdion/Raytracer/blob/master/resource/sample/1fbf532b7231ba919be977c40152ea0e.png?raw=true)
