@@ -52,6 +52,7 @@ for inc in \
 
 if [ "$conf_inc" = "NO" ]; then
 	echo "Can't find a suitable X11 include directory."
+	echo "Try to install libxext-dev"
 	exit
 else
 	echo "X11 include dir : $conf_inc"
