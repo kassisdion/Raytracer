@@ -1,6 +1,8 @@
 # Raytracer
 This a project i've done during my first years at Epitech.
+
 Thx to Caron Thomas for the scene generator.
+
 =========
 
 ## Demo
