@@ -1,4 +1,6 @@
 # Raytracer
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+
 This a project i've done during my first years at Epitech.
 
 Thx to Caron Thomas for the scene generator.
